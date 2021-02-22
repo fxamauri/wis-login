@@ -1,8 +1,9 @@
 import { HYDRATE } from 'next-redux-wrapper';
-import { AppState, Action } from './interfaces';
+import { AppState, Action, actionTypes } from './interfaces';
 
 export const initialState: AppState = {
-  onekey: 'false',
+  token: '',
+  loading: false,
 };
 
 const reducer = (
@@ -12,6 +13,24 @@ const reducer = (
   switch (action.type) {
     case HYDRATE:
       return { ...state, ...action.payload };
+
+    case actionTypes.SIGN_IN_REQUEST:
+      return {
+        ...state,
+        ...{ loading: true },
+      };
+
+    case actionTypes.SIGN_IN_RESPONSE:
+      return {
+        ...state,
+        ...{ token: action.token, loading: false },
+      };
+
+    case actionTypes.SIGN_IN_FAILURE:
+      return {
+        ...state,
+        ...{ loading: false },
+      };
 
     default:
       return state;

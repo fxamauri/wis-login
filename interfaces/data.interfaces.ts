@@ -1,3 +1,4 @@
 export interface AppState {
-  onekey: string;
+  token: string;
+  loading: boolean;
 }

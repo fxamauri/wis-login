@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginPage Should render loginPage 1`] = `
+<div
+  class="LoginPagestyles__Container-sc-11ttscf-0 fvPDEz"
+>
+  <div
+    class="LoginPagestyles__BackgroundWoman-sc-11ttscf-1 eURXJn"
+  />
+  <div
+    class="LoginPagestyles__LoginContainer-sc-11ttscf-3 jAgnCy"
+  >
+    <div
+      class="LoginPagestyles__ToLeftMediumScreenSizes-sc-11ttscf-2 calpJz"
+    >
+      <form
+        class="LoginPagestyles__LoginForm-sc-11ttscf-4 eZhMGZ"
+        data-testid="login-form"
+      >
+        <div
+          class="LoginPagestyles__LoginContent-sc-11ttscf-5 hcCZaN"
+        >
+          <div
+            class="LoginPageHeaderstyles__Container-sc-1kkzcr1-0 bxDIFd"
+          >
+            <h1
+              class="LoginPageHeaderstyles__Title-sc-1kkzcr1-1 bWkUDc"
+            >
+              Olá, seja bem vindo!
+            </h1>
+            <p
+              class="LoginPageHeaderstyles__SubTitle-sc-1kkzcr1-2 bFNnNa"
+            >
+              Para acessar a plataforma, faça seu login.
+            </p>
+          </div>
+          <div
+            class="LoginPagestyles__FormGroup-sc-11ttscf-6 jpMcGh"
+          >
+            <div
+              class="Inputstyles__Container-sc-17xchd0-0 bOXAkU"
+            >
+              <label
+                class="Inputstyles__Label-sc-17xchd0-1 iYXcqo"
+                for="email"
+              >
+                E-mail
+              </label>
+              <div
+                class="Inputstyles__InputContainer-sc-17xchd0-3 iUQGbd"
+              >
+                <input
+                  class="Inputstyles__InputStyled-sc-17xchd0-2 ieXVSx"
+                  data-testid="input"
+                  name="email"
+                  placeholder="user.name@mail.com"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="LoginPagestyles__FormGroup-sc-11ttscf-6 jpMcGh"
+          >
+            <div
+              class="Inputstyles__Container-sc-17xchd0-0 bOXAkU"
+            >
+              <label
+                class="Inputstyles__Label-sc-17xchd0-1 iYXcqo"
+                for="password"
+              >
+                Senha
+              </label>
+              <div
+                class="Inputstyles__InputContainer-sc-17xchd0-3 iUQGbd"
+              >
+                <input
+                  class="Inputstyles__InputStyled-sc-17xchd0-2 ieXVSx"
+                  data-testid="input"
+                  name="password"
+                  placeholder="*******"
+                  type="password"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="LoginPagestyles__ButtonLoginSection-sc-11ttscf-7 ytbDH"
+          >
+            <button
+              class="ButtonLoginstyles__ButtonLogin-d0aenn-0 kJBLfk"
+            >
+              Entrar
+            </button>
+            <span
+              class="LoginPageForgotPasswordstyles__Container-sc-1ecj8hf-0 iNNOJL"
+            >
+              Esqueceu seu login ou senha? Clique
+               
+              <a
+                href="/"
+              >
+                aqui
+              </a>
+            </span>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;

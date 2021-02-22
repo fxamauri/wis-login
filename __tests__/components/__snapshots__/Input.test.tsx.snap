@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Should render Input 1`] = `
+<div
+  class="Inputstyles__Container-sc-17xchd0-0 bOXAkU"
+>
+  <label
+    class="Inputstyles__Label-sc-17xchd0-1 iYXcqo"
+    for="password"
+  >
+    Password
+  </label>
+  <div
+    class="Inputstyles__InputContainer-sc-17xchd0-3 iUQGbd"
+  >
+    <input
+      class="Inputstyles__InputStyled-sc-17xchd0-2 ieXVSx"
+      data-testid="input"
+      name="password"
+    />
+  </div>
+</div>
+`;
